@@ -39,20 +39,6 @@ export const Navbar = () => {
             <button>
               <Link
                 activeClass="active"
-                to="portfolio"
-                spy
-                smooth
-                offset={0}
-                duration={500}
-              >
-                Portfolio
-              </Link>
-            </button>
-          </li>
-          <li>
-            <button>
-              <Link
-                activeClass="active"
                 to="contact"
                 spy
                 smooth
@@ -60,6 +46,20 @@ export const Navbar = () => {
                 duration={500}
               >
                 Contact
+              </Link>
+            </button>
+          </li>
+          <li>
+            <button>
+              <Link
+                activeClass="active"
+                to="portfolio"
+                spy
+                smooth
+                offset={0}
+                duration={500}
+              >
+                Portfolio
               </Link>
             </button>
           </li>

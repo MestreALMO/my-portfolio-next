@@ -1,10 +1,11 @@
 import { Container } from "./styles";
+import TitleUnderline from "../../components/titleUnderline";
 
 export const About = () => {
   return (
     <>
       <Container id="about">
-        <h1>About</h1>
+        <TitleUnderline>About</TitleUnderline>
         <div>
           <p>
             I&apos;m a developer with focus on the front-end, my speciality
