@@ -29,9 +29,10 @@ export const Portfolio = () => {
               alt={item[0]}
             />
             <Image
-              src={`${
-                Projects.githubLink + item[0]
-              }/blob/master/_README.md/app.gif?raw=true`}
+              src={
+                `${Projects.githubLink + item[0]}` +
+                `/blob/master/_README.md/app.gif?raw=true`
+              }
               alt={"test 02"}
               width="600"
               height="336"
