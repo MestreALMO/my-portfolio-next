@@ -6,7 +6,7 @@ import TitleUnderline from "../../components/titleUnderline";
 export const Contact = () => {
   return (
     <>
-      <Container>
+      <Container id="contact">
         <TitleUnderline>Contact</TitleUnderline>
 
         <Info>
