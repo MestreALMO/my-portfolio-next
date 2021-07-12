@@ -1,30 +1,27 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding-top: 1.5em;
   display: grid;
   width: 100%;
-
-  .codeLong {
-    filter: blur(4px);
-  }
+  background: url("/bgHomeBlured.png") no-repeat center;
+  background-size: cover;
+  margin-top: 2.8em;
+  padding-bottom: 3rem;
 
   div {
-    grid-area: 1 / 1;
-    z-index: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 2em;
+    justify-content: center;
   }
+`;
 
-  .myPhoto {
+export const Info = styled.div`
+  padding: 1rem;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 310px;
+
+  img {
     border-radius: 50%;
-    display: block;
-    max-height: 300px;
-    max-width: 300px;
-    margin: 0 auto 1em;
-    /* width: 100%; */
-    border: solid gray 2px;
   }
 `;

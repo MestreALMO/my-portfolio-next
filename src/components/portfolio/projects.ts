@@ -2,6 +2,7 @@ export const githubApi = "https://api.github.com/repos/MestreALMO/";
 export const githubLink = "https://raw.githubusercontent.com/MestreALMO/";
 
 const arrayProjects = [
+  "my-portfolio-next",
   "Youtube-Navbar-2021",
   "Mana-raWozonWebsite",
   "Movies-Website",

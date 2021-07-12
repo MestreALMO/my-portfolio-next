@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  position: fixed;
-  background: var(--gray-600);
-  color: var(--gray-100);
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  background: var(--gray-600);
+  color: var(--gray-100);
   width: 100%;
   opacity: 0.9;
   z-index: 9999;
@@ -14,6 +14,27 @@ export const Container = styled.div`
 
   &:hover {
     opacity: 1;
+  }
+`;
+
+export const ContainerSpacing = styled.div`
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  max-width: 860px;
+
+  @media (min-width: 600px) {
+    padding: 0 2rem;
+    justify-content: space-between;
+  }
+`;
+
+export const MyName = styled.div`
+  display: none;
+
+  @media (min-width: 600px) {
+    display: flex;
   }
 `;
 
