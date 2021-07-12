@@ -2,8 +2,8 @@
 //   reactStrictMode: true,
 // };
 module.exports = {
-  // reactStrictMode: true,
+  reactStrictMode: true,
   images: {
-    domains: ["github.com"],
+    domains: ["raw.githubusercontent.com"],
   },
 };

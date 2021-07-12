@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import Image from "next/image";
 
-import { Container, Row, Frame } from "./styles";
+import { Container, Element, Elements } from "./styles";
 import TitleUnderline from "../../components/titleUnderline";
 import * as Projects from "./projects";
 
@@ -14,50 +14,22 @@ const ProjectInPair = Projects.projects.reduce((acc, curr, index) => {
 
 export const Portfolio = () => {
   const automaticHtml = useMemo(() => {
-    return ProjectInPair.map((item) => (
-      <Row key={item.join()}>
-        <Frame
-          href={Projects.githubLink + item[0]}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <figure>
-            <img
-              src={`${
-                Projects.githubLink + item[0]
-              }/blob/master/_README.md/app.gif?raw=true`}
-              alt={item[0]}
-            />
-            <Image
-              src={
-                `${Projects.githubLink}` +
-                `${item[0]}` +
-                `/blob/master/_README.md/app.gif?raw=true`
-              }
-              alt={item[0]}
-              width="600"
-              height="336"
-            />
-            <figcaption>{item[0]}</figcaption>
-          </figure>
-        </Frame>
-        <Frame
-          href={Projects.githubLink + item[1]}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <figure>
-            <img
-              src={`${
-                Projects.githubLink + item[1]
-              }/blob/master/_README.md/app.gif?raw=true`}
-              alt={item[1]}
-            />
-            <figcaption>{item[1]}</figcaption>
-            {/* <p>test</p> */}
-          </figure>
-        </Frame>
-      </Row>
+    return Projects.projects.map((item) => (
+      <Element key={item}>
+        <figure>
+          <Image
+            src={
+              `${Projects.githubLink}` +
+              `${item}` +
+              `/main/_README.md/img01.png`
+            }
+            alt={item}
+            width="1919"
+            height="1079"
+          />
+          <figcaption>{item}</figcaption>
+        </figure>
+      </Element>
     ));
   }, []);
 
@@ -65,7 +37,7 @@ export const Portfolio = () => {
     <>
       <Container id="portfolio">
         <TitleUnderline>Portfolio</TitleUnderline>
-        {automaticHtml}
+        <Elements>{automaticHtml}</Elements>
       </Container>
     </>
   );
