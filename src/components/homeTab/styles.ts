@@ -5,7 +5,7 @@ export const Container = styled.div`
   width: 100%;
   background: url("/bgHomeBlured.png") no-repeat center;
   background-size: cover;
-  margin-top: 2.8em;
+  margin-top: 2.7em;
   padding-bottom: 3rem;
 
   div {

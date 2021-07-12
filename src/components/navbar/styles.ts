@@ -5,7 +5,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   position: fixed;
-  background: var(--gray-600);
+  background: var(--gray-800);
   color: var(--gray-100);
   width: 100%;
   opacity: 0.9;

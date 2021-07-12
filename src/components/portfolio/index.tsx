@@ -15,7 +15,12 @@ const ProjectInPair = Projects.projects.reduce((acc, curr, index) => {
 export const Portfolio = () => {
   const automaticHtml = useMemo(() => {
     return Projects.projects.map((item) => (
-      <Element key={item}>
+      <Element
+        key={item}
+        href={"https://github.com/MestreALMO/" + `${item}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <figure>
           <Image
             src={

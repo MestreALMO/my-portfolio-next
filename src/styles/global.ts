@@ -107,6 +107,8 @@ export const GlobalStyle = createGlobalStyle`
         --pink-900: #521B41;
 
         --appMaxWidth: 70rem;
+
+        --blue-bg: #011627;
     }
 
     * {
