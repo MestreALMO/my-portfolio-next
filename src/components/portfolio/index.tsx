@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 import { Container, Element, Elements } from "./styles";
 import TitleUnderline from "../../components/titleUnderline";
@@ -22,15 +22,15 @@ export const Portfolio = () => {
         rel="noopener noreferrer"
       >
         <figure>
-          <Image
+          <img
             src={
               `${Projects.githubLink}` +
               `${item}` +
               `/blob/main/_README.md/img01.png?raw=true`
             }
             alt={item}
-            width="1919"
-            height="1079"
+            // width="1919"
+            // height="1079"
           />
           <figcaption>{item}</figcaption>
         </figure>
