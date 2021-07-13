@@ -21,6 +21,14 @@ export const Info = styled.div`
   align-items: center;
   max-width: 310px;
 
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
   img {
     border-radius: 50%;
   }

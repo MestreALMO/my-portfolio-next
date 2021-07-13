@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: var(--black);
+  background: var(--gray-900);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -10,11 +10,12 @@ export const Container = styled.div`
 
   div {
     margin: 1em;
-    max-width: 36em;
+    max-width: 46em;
 
     p {
-      text-indent: 2rem;
-      font-size: 1rem;
+      text-indent: 3rem;
+      font-size: 1.6rem;
+      color: var(--gray-400);
     }
   }
 `;

@@ -26,7 +26,7 @@ export const Email = styled.a`
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: #fff;
+  color: var(--gray-300);
   font-size: 22px;
   margin-bottom: 10px;
   border-radius: 10%;
@@ -48,7 +48,7 @@ export const Squares = styled.div`
 
   a {
     text-decoration: none;
-    color: #fff;
+    color: var(--gray-300);
     margin: 0 0.4rem 0 0.4rem;
     background-color: #003561;
     border-radius: 10%;

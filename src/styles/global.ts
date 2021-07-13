@@ -120,7 +120,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background: var(--gray-700);
-        color: var(--white);
+        color: var(--gray-300);
         margin: 0 auto;
         min-width: 300px;
     }
