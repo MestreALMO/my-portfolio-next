@@ -1,7 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="_README.md/app.gif" alt="Logo" width="80" height="80">
 
   <h3 align="center">My new Portfolio Webpage</h3>
 
@@ -9,6 +8,7 @@
     Built with NextJS.
     <br />
     <br />
+    <img src="_README.md/app.gif" alt="Logo">
   </p>
 </p>
 
