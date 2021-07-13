@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 import { Container, Element, Elements } from "./styles";
 import TitleUnderline from "../../components/titleUnderline";
@@ -13,30 +13,30 @@ const ProjectInPair = Projects.projects.reduce((acc, curr, index) => {
 }, [] as Array<string[]>);
 
 export const Portfolio = () => {
-  const automaticHtml = useMemo(() => {
-    return Projects.projects.map((item) => (
-      <Element
-        key={item}
-        href={"https://github.com/MestreALMO/" + `${item}`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <figure>
-          <Image
-            src={
-              `${Projects.githubLink}` +
-              `${item}` +
-              `/blob/main/_README.md/img01.png?raw=true`
-            }
-            alt={item}
-            width="1919"
-            height="1079"
-          />
-          <figcaption>{item}</figcaption>
-        </figure>
-      </Element>
-    ));
-  }, []);
+  // const automaticHtml = useMemo(() => {
+  //   return Projects.projects.map((item) => (
+  //     <Element
+  //       key={item}
+  //       href={"https://github.com/MestreALMO/" + `${item}`}
+  //       target="_blank"
+  //       rel="noopener noreferrer"
+  //     >
+  //       <figure>
+  //         <Image
+  //           src={
+  //             `${Projects.githubLink}` +
+  //             `${item}` +
+  //             `/blob/main/_README.md/img01.png?raw=true`
+  //           }
+  //           alt={item}
+  //           width="1919"
+  //           height="1079"
+  //         />
+  //         <figcaption>{item}</figcaption>
+  //       </figure>
+  //     </Element>
+  //   ));
+  // }, []);
 
   return (
     <>
@@ -44,7 +44,7 @@ export const Portfolio = () => {
         <TitleUnderline>Portfolio</TitleUnderline>
         <Elements>
           <Element
-            key="xx21"
+            key="xx1"
             href={"https://github.com/MestreALMO/Retractable-Accordion"}
             target="_blank"
             rel="noopener noreferrer"
@@ -60,7 +60,7 @@ export const Portfolio = () => {
             </figure>
           </Element>
           <Element
-            key="xx22"
+            key="xx2"
             href={"https://github.com/MestreALMO/Retractable-Accordion"}
             target="_blank"
             rel="noopener noreferrer"
@@ -76,7 +76,7 @@ export const Portfolio = () => {
             </figure>
           </Element>
           <Element
-            key="xx22"
+            key="xx3"
             href={"https://github.com/MestreALMO/Retractable-Accordion"}
             target="_blank"
             rel="noopener noreferrer"
@@ -92,7 +92,7 @@ export const Portfolio = () => {
             </figure>
           </Element>
 
-          {automaticHtml}
+          {/* {automaticHtml} */}
         </Elements>
       </Container>
     </>
