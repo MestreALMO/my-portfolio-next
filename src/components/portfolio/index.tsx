@@ -42,7 +42,26 @@ export const Portfolio = () => {
     <>
       <Container id="portfolio">
         <TitleUnderline>Portfolio</TitleUnderline>
-        <Elements>{automaticHtml}</Elements>
+        <Elements>
+          <Element
+            key="xx21"
+            href={"https://github.com/MestreALMO/Retractable-Accordion"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <figure>
+              <Image
+                src={`https://i.imgur.com/acxjJyr.png`}
+                alt="test"
+                width="1919"
+                height="1079"
+              />
+              <figcaption>test</figcaption>
+            </figure>
+          </Element>
+
+          {automaticHtml}
+        </Elements>
       </Container>
     </>
   );
