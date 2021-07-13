@@ -11,60 +11,52 @@ export const Navbar = () => {
           </MyName>
           <Buttons>
             <li>
-              <button>
-                <Link
-                  activeClass="active"
-                  to="home"
-                  spy
-                  smooth
-                  offset={0}
-                  duration={500}
-                >
-                  Home
-                </Link>
-              </button>
+              <Link
+                activeClass="active"
+                to="home"
+                spy
+                smooth
+                offset={0}
+                duration={500}
+              >
+                <button>Home</button>
+              </Link>
             </li>
             <li>
-              <button>
-                <Link
-                  activeClass="active"
-                  to="about"
-                  spy
-                  smooth
-                  offset={0}
-                  duration={500}
-                >
-                  About
-                </Link>
-              </button>
+              <Link
+                activeClass="active"
+                to="about"
+                spy
+                smooth
+                offset={0}
+                duration={500}
+              >
+                <button>About</button>
+              </Link>
             </li>
             <li>
-              <button>
-                <Link
-                  activeClass="active"
-                  to="contact"
-                  spy
-                  smooth
-                  offset={0}
-                  duration={500}
-                >
-                  Contact
-                </Link>
-              </button>
+              <Link
+                activeClass="active"
+                to="contact"
+                spy
+                smooth
+                offset={0}
+                duration={500}
+              >
+                <button>Contact</button>
+              </Link>
             </li>
             <li>
-              <button>
-                <Link
-                  activeClass="active"
-                  to="portfolio"
-                  spy
-                  smooth
-                  offset={0}
-                  duration={500}
-                >
-                  Portfolio
-                </Link>
-              </button>
+              <Link
+                activeClass="active"
+                to="portfolio"
+                spy
+                smooth
+                offset={0}
+                duration={500}
+              >
+                <button>Portfolio</button>
+              </Link>
             </li>
           </Buttons>
         </ContainerSpacing>
