@@ -10,7 +10,11 @@ export const Contact = () => {
         <TitleUnderline>Contact</TitleUnderline>
 
         <Info>
-          <Email href="mailto:lusegardis@gmail.com">
+          <Email
+            href="mailto:lusegardis@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div>E-mail:&nbsp;</div>
             <div>lusegardis@gmail.com</div>
           </Email>
