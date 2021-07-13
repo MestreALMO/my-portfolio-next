@@ -19,7 +19,7 @@ export const Info = styled.div`
   padding: 1rem;
   margin: 0 auto;
   align-items: center;
-  max-width: 310px;
+  max-width: 300px;
 
   h1 {
     font-size: 3rem;
