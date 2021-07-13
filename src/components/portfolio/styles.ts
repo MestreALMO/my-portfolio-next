@@ -19,7 +19,12 @@ export const Element = styled.a`
   justify-content: space-between;
   margin: 0 0.6em 1.6em;
   background: var(--gray-700);
-  padding: 0.3em;
+  border: solid var(--gray-700) 0.3rem;
+  transition: border 0.5s;
+
+  &:hover {
+    border: solid var(--red-700) 0.3rem;
+  }
 
   figure {
     max-width: 360px;
