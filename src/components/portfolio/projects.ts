@@ -1,5 +1,5 @@
 export const githubApi = "https://api.github.com/repos/MestreALMO/";
-export const githubLink = "https://raw.githubusercontent.com/MestreALMO/";
+export const githubLink = "https://github.com/MestreALMO/";
 
 const arrayProjects = [
   "my-portfolio-next",

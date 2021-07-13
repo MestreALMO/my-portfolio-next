@@ -26,7 +26,7 @@ export const Portfolio = () => {
             src={
               `${Projects.githubLink}` +
               `${item}` +
-              `/main/_README.md/img01.png`
+              `/blob/main/_README.md/img01.png?raw=true`
             }
             alt={item}
             width="1919"
