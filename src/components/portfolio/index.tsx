@@ -53,8 +53,8 @@ export const Portfolio = () => {
               <img
                 src={`https://i.imgur.com/acxjJyr.png`}
                 alt="test"
-                width="1919"
-                height="1079"
+                // width="1919"
+                // height="1079"
               />
               <figcaption>test</figcaption>
             </figure>
@@ -69,8 +69,8 @@ export const Portfolio = () => {
               <img
                 src={`https://raw.githubusercontent.com/MestreALMO/Retractable-Accordion/main/_README.md/img01.png`}
                 alt="test"
-                width="1919"
-                height="1079"
+                // width="1919"
+                // height="1079"
               />
               <figcaption>test</figcaption>
             </figure>
@@ -85,8 +85,8 @@ export const Portfolio = () => {
               <img
                 src={`https://github.com/MestreALMO/Retractable-Accordion/blob/main/_README.md/img01.png?raw=true`}
                 alt="test"
-                width="1919"
-                height="1079"
+                // width="1919"
+                // height="1079"
               />
               <figcaption>test</figcaption>
             </figure>
